@@ -1,39 +1,122 @@
 {
   "version": "2.0",
-  "dataset_id": "on006171",
-  "source": "openneuro",
-  "source_id": "ds006171",
+  "pipeline_stage": "enriched",
   "title": "EEG data during three near-threshold visual detection tasks: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity)",
-  "authors": {
-    "María Melcón": {},
-    "Enrique Stern": {},
-    "Lydia Arana": {},
-    "Almudena Capilla": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "María Melcón": {
+      "orcid": "0000-0002-4885-0595",
+      "affiliations": [
+        {
+          "name": "Departamento de Psicología Biológica y de la Salud, Facultad de Psicología Universidad Autónoma de Madrid  Madrid Spain"
+        },
+        {
+          "name": "Centre for Cognitive Neuroimaging University of Glasgow  Glasgow UK"
+        }
+      ]
+    },
+    "Enrique Stern": {},
+    "Lydia Arana": {},
+    "Almudena Capilla": {
+      "orcid": "0000-0002-4181-4284",
+      "affiliations": [
+        {
+          "name": "Departamento de Psicología Biológica y de la Salud, Facultad de Psicología Universidad Autónoma de Madrid  Madrid Spain"
+        }
+      ]
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006171.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1111/psyp.14525.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006171",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006171",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1111/psyp.14525",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación, Spain / FEDER, UE (MCIU/AEI/FEDER, UE), Grant/ Award Number: PGC2018-100682- B-I00 and PID2019-111335GA-I00; Ministerio de Ciencia e Innovación / Agencia Estatal de Investigación, Spain / FEDER, UE (MCIN/AEI/ 10.13039/501100011033 /FEDER, UE), Grant/Award Number: PID2021- 125841NB-I00; Comunidad de Madrid. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript"
+      "funder_name": "Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación, Spain",
+      "award_number": "PGC2018-100682-B-I00"
     },
     {
-      "funder_name": "Ministerio de Ciencia e Innovación / Agencia Estatal de Investigación, Spain / FEDER, UE (MCIN/AEI/10.13039/501100011033 /FEDER,UE), Grant/Award Number: PID2021-125841NB-I00; Comunidad de Madrid"
+      "funder_name": "Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación, Spain",
+      "award_number": "PID2019-111335GA-I00"
+    },
+    {
+      "funder_name": "Ministerio de Ciencia e Innovación / Agencia Estatal de Investigación, Spain",
+      "award_number": "PID2021-125841NB-I00"
+    },
+    {
+      "funder_name": "Comunidad de Madrid"
     }
   ],
-  "acknowledgements": "We are grateful to all participants of the database"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from participants performing three near-threshold visual detection tasks with varying levels of attentional cueing: a no-cue baseline condition, a noninformative cue task with 50% validity, and an informative cue task with 100% validity. The study investigates the neural mechanisms underlying visual perception at detection threshold, with particular focus on the relationship between prestimulus alpha-band oscillations and perceptual performance.",
+  "methods_description": "EEG data were collected during three near-threshold visual detection tasks: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity). Participants performed perceptual detection of visual stimuli presented at near-threshold intensity levels. Analysis focused on the relationship between prestimulus alpha-band oscillations and perceptual performance.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "visual detection"
+    },
+    {
+      "term": "prestimulus activity"
+    },
+    {
+      "term": "perceptual threshold"
+    },
+    {
+      "term": "cue validity"
+    },
+    {
+      "term": "cueing"
+    },
+    {
+      "term": "near-threshold"
+    }
+  ],
+  "source_hash": "3ee57093e9e2443e0403d25c4528d76bbf42add0194d5004d2ab22047361e923"
 }
