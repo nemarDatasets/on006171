@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG data during three near-threshold visual detection tasks: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity)",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from participants performing three near-threshold visual detection tasks with varying cue validity conditions: a no-cue baseline task, a noninformative cue task (50% validity), and an informative cue task (100% validity). The study investigates the neural mechanisms underlying visual perception at detection threshold, with particular focus on prestimulus alpha-band activity and its relationship to perceptual performance.",
+  "methods_description": "EEG data were collected during three near-threshold visual detection tasks with different cue validity conditions (no-cue, 50% validity noninformative cue, and 100% validity informative cue). Participants performed perceptual detection of visual stimuli presented at near-threshold intensity levels.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,12 +29,33 @@
       ]
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006171.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "visual detection"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "prestimulus activity"
+    },
+    {
+      "term": "cue validity"
+    },
+    {
+      "term": "near-threshold perception"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1111/psyp.14525.",
       "identifier_type": "DOI",
@@ -52,6 +75,11 @@
       "identifier": "10.1111/psyp.14525",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006171.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -71,52 +99,19 @@
       "funder_name": "Comunidad de Madrid"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "72.8 GB (105 files)"
   ],
   "formats": [
     ".bdf",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from participants performing three near-threshold visual detection tasks with varying levels of attentional cueing: a no-cue baseline condition, a noninformative cue task with 50% validity, and an informative cue task with 100% validity. The study investigates the neural mechanisms underlying visual perception at detection threshold, with particular focus on the relationship between prestimulus alpha-band oscillations and perceptual performance.",
-  "methods_description": "EEG data were collected during three near-threshold visual detection tasks: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity). Participants performed perceptual detection of visual stimuli presented at near-threshold intensity levels. Analysis focused on the relationship between prestimulus alpha-band oscillations and perceptual performance.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "visual detection"
-    },
-    {
-      "term": "prestimulus activity"
-    },
-    {
-      "term": "perceptual threshold"
-    },
-    {
-      "term": "cue validity"
-    },
-    {
-      "term": "cueing"
-    },
-    {
-      "term": "near-threshold"
-    }
-  ],
-  "source_hash": "3ee57093e9e2443e0403d25c4528d76bbf42add0194d5004d2ab22047361e923"
+  "source_hash": "c91b5a58c9a8840678828f155b02d168a5edf3bc8c6993fd3166331cc2d5c53c"
 }
